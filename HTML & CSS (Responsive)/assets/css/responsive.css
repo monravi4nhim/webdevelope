@@ -1,0 +1,296 @@
+/*lanscape mobile*/
+/* CSS Document */
+/*default hamberger menu*/
+
+/*laptop*/
+@media (min-width:1025px) and (max-width:1500px){
+	.d-width {
+    	max-width: 1098px;
+	}
+	#content .news .list .description{
+		width: 69%;
+	}
+}
+
+/*responsive with screet devices*/
+/*ipad pro or less*/
+
+@media (min-width:992px) and (max-width:1024px) { 
+	.d-width{
+		max-width: 835px;
+	}
+	#content .news .list .description {
+    	width: 60%;
+    	padding-left: 15px;
+	}
+	#footer .footers .list .address span:last-child {
+		width: 70%;
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width:768px) and (max-width:991px) {
+	.d-width{
+	    max-width: 620px;	
+	}
+	#content .banners .hero-banner {
+		height: 250px;
+	}
+	#content .banners .hero-banner h1{
+		font-size: 30px;
+	}
+	#content .abouts .overview{
+		padding: 0 50px;
+	}
+	#content .abouts .overview h2 {
+		font-size: 30px;
+	}
+	#content .news .list .thumbnail{
+		width: 250px;
+		height: 250px;
+	}
+	#content .news .list .description{
+		width: 54%;
+		padding-left: 20px;
+	}
+	#content .news .list .description p{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	#footer .footers .list .address span:first-child{
+		width: auto;
+		height: 30px;		
+	}
+	#footer .footers .list .address span:first-child img{
+		width: auto;
+		height: 30px;
+	}
+	#footer .footers .list .address{
+		padding: 0 8px;
+	}
+	#footer .footers .list .address span:last-child{
+		width: 78%;
+	}
+}
+
+/*phone 6 plus*/
+
+@media (min-width: 414px) and (max-width:736px) {
+	#header .logo{
+		text-align: center;
+	}
+	#header .main-menu ul li a{
+		font-size: 16px;
+	}	
+	#content .banners .hero-banner{
+		height: 260px;
+	}
+	#content .abouts .overview{
+		padding: 0 18px;
+	}
+	#content .abouts .overview h2{
+		font-size: 25px;
+	}
+	#content .abouts .list {
+		width: 100%;
+	}
+	#content .news .list .thumbnail{
+		width: 100%;
+	}
+	#content .news .list .description{
+		width: 94%;
+    	padding-left: 15px;
+		text-align: center;
+	}
+	#footer .footers .list .logo img{
+		height: 90px;
+		padding-left: 10px;
+	}
+	#footer .footers .list .title-logo{
+		margin-bottom: 10px;
+		padding-left: 0px;
+		font-size: 25px;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 0px;
+	}
+	#footer .footers .list h2.title{
+		font-size: 20px;
+	}
+	#footer .footers .list .menu ul {
+		padding: 0 32px;
+	}
+	#footer .footers .list .address span:first-child{
+		width: auto;
+		height: 40px;		
+	}
+	#footer .footers .list .address span:first-child img{
+		width: auto;
+		height: 40px;
+	}
+	#footer .footers .list .address{
+		padding: 0 6px;
+		width: 91%;
+	}
+	#footer .footers .list .address span:last-child{
+		padding-left: 0;
+		width: 91%;
+		font-size: 12px;
+	}
+	#content .banners .hero-banner h1 {
+		font-size: 25px;
+	}
+}
+
+/*portrait phone 6*/
+@media (min-width: 375px) and (max-width:413px) {
+	#header .logo{
+		text-align: center;
+	}
+	#header .main-menu ul li a{
+		font-size: 16px;
+	}
+	#content .banners .hero-banner{
+		height: 300px;
+	}
+	#content .abouts .overview {
+    	padding: 0 15px;
+	}
+	#content .abouts .list{
+		width: 100%;		
+	}
+	#content .news .list .thumbnail{
+		width: 100%;
+	}
+	#content .news .list .description{
+		text-align: center;
+		width: 90%;
+		font-size: 18px;
+		padding: 0 18px;
+	}
+	#footer .footers .list .logo img{
+		height: 90px;
+		padding-left: 10px;
+	}
+	#footer .footers .list .title-logo{
+		margin-bottom: 10px;
+		padding-left: 0px;
+		font-size: 25px;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 0px;
+	}
+	#footer .footers .list h2.title{
+		font-size: 20px;
+	}
+	#footer .footers .list .menu ul {
+		padding: 0 32px;
+	}
+	#footer .footers .list .address span:first-child{
+		width: auto;
+		height: 40px;		
+	}
+	#footer .footers .list .address span:first-child img{
+		width: auto;
+		height: 40px;
+	}
+	#footer .footers .list .address{
+		padding: 0 6px;
+		width: 91%;
+	}
+	#footer .footers .list .address span:last-child{
+		padding-left: 0;
+		width: 91%;
+		font-size: 12px;
+	}
+	#content .banners .hero-banner h1 {
+		font-size: 25px;
+	}
+	#content .abouts .overview h2 {
+		font-size: 25px;
+	}
+	#content .abouts .overview p{
+		font-size: 15px;
+		line-height: 22px;
+	}
+}
+
+/*portrait phone 5*/
+@media (max-width: 359px) {
+	#header .logo{
+		text-align: center;
+	}
+	#header .main-menu ul li a{
+		font-size: 12px;
+		padding: 10px 10px;
+	}
+	#content .banners .hero-banner{
+		height: 300px;
+	}
+	#content .abouts .overview {
+    	padding: 0 15px;
+	}
+	#content .abouts .list{
+		width: 100%;		
+	}
+	#content .news .list .thumbnail{
+		width: 100%;
+	}
+	#content .news .list .description{
+		text-align: center;
+		width: 90%;
+		font-size: 18px;
+		padding: 0 18px;
+	}
+	#content .news .list .description p {
+    	font-size: 14px;
+    	line-height: 20px;
+	}
+	#content .news .list .box-more a{
+		font-size: 14px;
+	}
+	#footer .footers .list .logo img{
+		height: 90px;
+		padding-left: 10px;
+	}
+	#footer .footers .list .title-logo{
+		margin-bottom: 10px;
+		padding-left: 0px;
+		font-size: 25px;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 0px;
+	}
+	#footer .footers .list h2.title{
+		font-size: 20px;
+	}
+	#footer .footers .list .menu ul {
+		padding: 0 32px;
+	}
+	#footer .footers .list .address span:first-child{
+		width: auto;
+		height: 40px;		
+	}
+	#footer .footers .list .address span:first-child img{
+		width: auto;
+		height: 40px;
+	}
+	#footer .footers .list .address{
+		padding: 0 6px;
+		width: 91%;
+	}
+	#footer .footers .list .address span:last-child{
+		padding-left: 0;
+		width: 91%;
+		font-size: 12px;
+	}
+	#content .banners .hero-banner h1 {
+		font-size: 25px;
+	}
+	#content .abouts .overview h2 {
+		font-size: 25px;
+	}
+	#content .abouts .overview p{
+		font-size: 15px;
+		line-height: 22px;
+	}
+}
